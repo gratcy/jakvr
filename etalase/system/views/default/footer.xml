@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<template>
+<footer><![CDATA[
+			<!-- Footer -->
+			<footer class="site-footer">
+
+				<!-- Social links -->
+				<ul class="footer-social">
+					<li class="facebook"><a href="http://www.facebook.com/jakvrcom" title="Facebook" class="icon ion-social-facebook"><span class="visually-hidden">Facebook</span></a></li>
+					<li class="twitter"><a href="https://www.instagram.com/jakvr/" title="Instagram" class="icon ion-images"><span class="visually-hidden">Twitter</span></a></li>
+					<li class="googleplus"><a href="https://plus.google.com/+JakvrGadget" title="Google+" class="icon ion-social-googleplus"><span class="visually-hidden">Google+</span></a></li>
+					<li class="googleplus"><a href="https://www.youtube.com/channel/UCEp6qqGWV1DOK1uH1S_TwTg" title="Youtube+" class="icon ion-social-youtube"><span class="visually-hidden">Youtube</span></a></li>
+				</ul>
+					
+			</footer>
+
+	</div>
+	<!-- END RIGHT SIDE -->
+
+	<!-- Loading... -->
+	<div id="preload">
+		<div id="preload-content">
+			<div class="spinner">
+				<div class="square"></div>
+				<div class="square"></div>
+				<div class="square"></div>
+				<div class="square"></div>
+			</div>
+			<div>Loading...</div>
+		</div>
+	</div>
+
+	<!-- Included JS files -->
+	<script type="text/javascript" src="{jakvr:get_template:}/assets/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="{jakvr:get_template:}/assets/ui/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="{jakvr:get_template:}/assets/plugins.js"></script>
+	<script type="text/javascript" src="{jakvr:get_template:}/assets/jssor.slider-22.2.8.mini.js"></script>
+	<script type="text/javascript" src="{jakvr:get_template:}/assets/scripts.js?{jakvr:nocache:}"></script>
+	
+</body>
+</html>
+]]>
+</footer></template>
+

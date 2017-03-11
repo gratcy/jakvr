@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<template>
+<index><![CDATA[
+			<!-- Intro -->
+			<div class="intro">
+				<div class="intro-title">Input product name which you want to preview?</div>
+			</div>
+			<!-- Newsletter form -->
+			<div class="newsletter">
+				<form action="{jakvr:site_url:}/process/search_product" method="post" id="newsletter-form">
+					<p class="form-field">
+						<label for="keyword" class="visually-hidden">Search Products</label>
+						<i class="icon ion-paper-airplane" aria-hidden="true"></i>
+						<input autocomplete="off" type="text" name="keyword" id="keyword" value="" placeholder="Input Product Name" />
+					</p>
+					<p class="form-submit">
+						<input type="submit" name="newsletter_submit" id="newsletter_submit" value="Go!" />
+					</p>
+				</form>
+			</div>
+
+		</div>
+
+		<!-- Background image and overlay -->
+		<div class="bg"></div>
+		<div class="bg-overlay"></div>
+
+	</div>
+	<!-- END LEFT SIDE -->
+
+	<!-- RIGHT SIDE -->
+	<div class="right-wrap">
+
+		<div class="inner fadeInRight">
+		<nav class="site-nav">
+				<h3 class="visually-hidden">Navigation</h3>
+				
+			</nav>
+		<div id="main">
+		<section class="main-section">
+				<h1 class="title-product">All Items</h1>
+				<div class="sorting">
+				<select name="categories">
+				{jakvr:categories:}
+				</select>
+				<select name="order" class="right">
+				<option value="0">Sort Price</option>
+				<option value="1">Price Lower to Higher</option>
+				<option value="2">Price Higher to Lower</option>
+				</select>
+				</div>
+				<div class="clear"></div>
+		<ul class="all-variation">
+		{jakvr:variation:}
+		</ul>
+		</section>
+		</div>
+		</div>
+
+
+]]>
+</index></template>

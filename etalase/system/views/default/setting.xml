@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<template>
+	<main>
+		<header>header.xml</header>
+		<content>index.xml</content>
+		<footer>footer.xml</footer>
+	</main>
+	<product_detail>
+		<header>header.xml</header>
+		<content>index.xml</content>
+		<footer>footer.xml</footer>
+	</product_detail>
+</template>

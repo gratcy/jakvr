@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<template>
+<header><![CDATA[
+<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+<head>
+	<meta charset="UTF-8" />
+	<title>{jakvr:get_title:}</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />	
+	<meta name="description" content="{jakvr:get_desc:}" />
+	
+	<!-- Included CSS files -->
+	<link href="{jakvr:get_template:}/assets/ionicons.min.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="{jakvr:get_template:}/assets/style.css?{jakvr:nocache:}" rel="stylesheet" type="text/css" media="all" />
+	<link href="{jakvr:get_template:}/assets/ui/jquery-ui.min.css" rel="stylesheet" type="text/css" media="all" />
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="{jakvr:get_template:}/assets/favicon.ico" />
+	
+	<!-- Included JS files -->
+	<script type="text/javascript" src="{jakvr:get_template:}/assets/modernizr.js"></script>
+	
+	<script type="text/javascript">
+	var SITE_URL = '{jakvr:site_url:}';
+	var ASSETS = '{jakvr:get_template:}/assets/';
+	</script>
+</head>
+<body>
+
+	<!-- LEFT SIDE -->
+	<div class="left-wrap">
+
+		<div class="inner fadeInLeft">
+			
+			<!-- Header -->
+			<header class="site-header">
+				<h1 class="site-title"><a href="{jakvr:site_url:}"><img src="{jakvr:get_template:}/assets/logo.png" width="220" alt="JakVR" /></a></h1>
+			</header>
+
+]]>
+</header></template>
