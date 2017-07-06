@@ -304,7 +304,7 @@ class Home extends MX_Controller {
 		$apv = $this -> input -> post('apv');
 		if (count($apv) > 0) {
 			foreach($apv as $k => $v)
-				$this -> order_model -> __update_order($v, array('tstatus' => 3));
+				$this -> order_model -> __update_order($v, array('tstatus' => 3, 'tapprovedby' => json_encode(array('uid' => $this -> privileges -> sesresult['uid'], 'unick' => $this -> privileges -> sesresult['unick'], 'tdate' => time()))));
 			
 			__set_error_msg(array('info' => 'Data berhasil di approved.'));
 			redirect(site_url('order'));

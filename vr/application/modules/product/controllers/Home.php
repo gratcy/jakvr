@@ -31,12 +31,17 @@ class Home extends MX_Controller {
 			$price = str_replace(',','', $price);
 			$priceseller = str_replace(',','', $priceseller);
 			
+			$price = (int) $price;
+			$pricebase = (int) $pricebase;
+			$priceseller = (int) $priceseller;
+			
 			if (!$name || !$desc || !$cid || !$bid) {
 				__set_error_msg(array('error' => 'Data yang anda masukkan tidak lengkap !!!'));
 				redirect(site_url('product' . '/' . __FUNCTION__));
 			}
 			else {
-				$arr = array('pcid' => $cid, 'pdate' => time(), 'pbid' => $bid,'pname' => $name, 'pdesc' => $desc, 'pprice' => $price, 'ppricebase' => $pricebase, 'ppriceseller' => $priceseller, 'pstatus' => $status);
+				$arr = array('pcid' => $cid, 'pdate' => time(), 'pbid' => $bid,'pname' => $name, 'pdesc' => $desc, 'pprice' => $price, 'ppriceseller' => $priceseller, 'pstatus' => $status);
+				if ($pricebase > 0 && __get_roles('ProductPriceBase')) $arr['ppricebase'] = $pricebase;
 				if ($this -> product_model -> __insert_product($arr, 1)) {
 					__set_error_msg(array('info' => 'Data berhasil ditambahkan.'));
 					redirect(site_url('product'));
@@ -82,17 +87,31 @@ class Home extends MX_Controller {
 					redirect(site_url('product' . '/' . __FUNCTION__ . '/' . $id));
 				}
 				else {
-					$arr = array('pcid' => $cid, 'pbid' => $bid,'pname' => $name, 'pdesc' => $desc, 'pprice' => $price, 'ppricebase' => $pricebase, 'ppriceseller' => $priceseller, 'pstatus' => $status);
-					if ($this -> product_model -> __update_product($id, $arr)) {
-						if ($price !== $tmpprice || $pricebase !== $tmppricebase || $priceseller !== $tmppriceseller) {
-							$this -> product_model -> __insert_product(array('ppid' => $id, 'pdate' => time(), 'pprice' => $price, 'ppricebase' => $pricebase, 'ppriceseller' => $priceseller, 'pstatus' => 1), 2);
+					if (__get_roles('ProductPriceBase')) {
+						$arr = array('pcid' => $cid, 'pbid' => $bid,'pname' => $name, 'pdesc' => $desc, 'pprice' => $price, 'ppriceseller' => $priceseller, 'pstatus' => $status);
+						if ($pricebase > 0) $arr['ppricebase'] = $pricebase;
+						if ($this -> product_model -> __update_product($id, $arr)) {
+							if ($pricebase > 0 && $price !== $tmpprice || $pricebase !== $tmppricebase || $priceseller !== $tmppriceseller) {
+								$this -> product_model -> __insert_product(array('ppid' => $id, 'pdate' => time(), 'pprice' => $price, 'ppricebase' => $pricebase, 'ppriceseller' => $priceseller, 'pstatus' => 1), 2);
+							}
+							__set_error_msg(array('info' => 'Data berhasil diubah.'));
+							redirect(site_url('product'));
 						}
-						__set_error_msg(array('info' => 'Data berhasil diubah.'));
-						redirect(site_url('product'));
+						else {
+							__set_error_msg(array('error' => 'Gagal mengubah data !!!'));
+							redirect(site_url('product'));
+						}
 					}
 					else {
-						__set_error_msg(array('error' => 'Gagal mengubah data !!!'));
-						redirect(site_url('product'));
+						$arr = array('pcid' => $cid, 'pbid' => $bid,'pname' => $name, 'pdesc' => $desc, 'pprice' => $price, 'ppriceseller' => $priceseller, 'pstatus' => $status);
+						if ($this -> product_model -> __update_product($id, $arr)) {
+							__set_error_msg(array('info' => 'Data berhasil diubah.'));
+							redirect(site_url('product'));
+						}
+						else {
+							__set_error_msg(array('error' => 'Gagal mengubah data !!!'));
+							redirect(site_url('product'));
+						}
 					}
 				}
 			}
