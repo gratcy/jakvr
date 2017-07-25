@@ -128,19 +128,23 @@
             <span>Sales &amp; Purchase</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
-              <span class="label label-primary pull-right">4</span>
+              <span class="label label-primary pull-right">2</span>
             </span>
           </a>
           <ul class="treeview-menu">
 			<?php if (__get_roles('Order')) : ?>
             <li><a href="<?php echo site_url('order'); ?>"><i class="fa fa-circle-o"></i> Order JakVR</a></li>
             <?php endif; ?>
+<!--
 			<?php if (__get_roles('Order')) : ?>
             <li><a href="<?php echo site_url('order_others'); ?>"><i class="fa fa-circle-o"></i> Order KoekMuraH</a></li>
             <?php endif; ?>
+-->
 			<?php if (__get_roles('Return')) : ?>
             <li><a href="<?php echo site_url('retur'); ?>"><i class="fa fa-circle-o"></i> Return JakVR</a></li>
+<!--
             <li><a href="#"><i class="fa fa-circle-o"></i> Return KoekMuraH</a></li>
+-->
             <?php endif; ?>
           </ul>
         </li>

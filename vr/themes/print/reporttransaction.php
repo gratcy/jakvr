@@ -78,10 +78,11 @@ if ($post['format'] == 2) {
 										<td style="border:1px solid #000;padding:3px;">
 										<?php
 										$date = __get_date($v -> tdate,1);
-										if($tgl <> $date){
-											$tgl = $date;
-											echo $tgl;
-										}
+										echo $date;
+										//~ if($tgl <> $date){
+											//~ $tgl = $date;
+											//~ echo $tgl;
+										//~ }
 										?></td>
 										<td style="border:1px solid #000;padding:3px;"><?php echo $createdby -> unick; ?></td>
 										<td style="border:1px solid #000;padding:3px;"><?php echo $v -> tno; ?></td>

@@ -39,9 +39,13 @@
                 <div class="form-group">
 					<div class="col-xs-6">
 				<label>Transaction Type:</label><br>
+<!--
 				<input name="type[]" type="checkbox" value="4" /> All <br>
+-->
 				<input name="type[]" type="checkbox" value="0" checked> Purchase Order (JakVR) <br>
+<!--
 				<input name="type[]" type="checkbox" value="3"> Purchase Order (KoekMuraH) <br>
+-->
                 </div>
 					<div class="col-xs-6"><br>
 				<input name="type[]" type="checkbox" value="1"> Retur Order <br>
