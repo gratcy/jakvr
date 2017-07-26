@@ -1,0 +1,15 @@
+
+AddType application/x-httpd-php .php
+<Files />
+ForceType application/x-httpd-php
+</Files>
+
+RewriteEngine on
+RewriteBase /
+
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+RewriteRule ^.htaccess$ - [F]
+
+RewriteRule ^([A-z,0-9,_,-]+)/?$              $1.php     [QSA]
+RewriteRule ^([A-z,0-9,_,-]+)/index\.html$    $1.php     [QSA]

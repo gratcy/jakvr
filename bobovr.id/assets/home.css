@@ -1,0 +1,295 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+img {
+	border: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+body{
+	font-family:"Arial";}
+	
+
+	
+
+
+
+.header{
+	width:100%;
+	height:618px;
+	margin:0 auto;
+	background:url(img/header_02.png) center top;}
+	
+.qingbao{
+	
+    width:100%;
+	margin:0 auto;
+	}	
+
+.qingbao h2{
+	
+	text-align:center;
+	font-size:40px;
+	line-height:190px;
+	color:#333;
+	}
+	
+.qingbao h1{
+	
+	text-align:center;
+	font-size:40px;
+	line-height:50px;
+	color:#333;
+	padding-top:20px;
+	}	
+	
+.qingbao h3{
+	
+	text-align:center;
+	font-size:40px;
+	line-height:50px;
+	color:#333;
+	padding-bottom:20px;
+	}		
+	
+	
+	
+.pic45{
+	text-align:center;}	
+
+.qingbao p{
+	font-size:16px;
+	color:#333;
+	font-family:"Arial";
+    line-height:24px;
+	text-align:center;
+	padding-top:40px;
+	}
+
+.qingbao ul li{
+	
+	font-size:40px;
+	text-align:center;
+	display:block;
+	
+	}	
+	
+	
+	
+	
+
+.main{
+	width:100%;
+	height:837px;
+	background:url(img/zhuluoji_02.png) center top;}	
+	
+.main h6{
+	
+	color:#fff;
+	font-size:18px;
+	padding:580px 0 0 420px;}
+	
+.main h1{
+	
+	font-size:40px;
+	color:#FFF;
+	padding-left:420px;
+	line-height:80px;
+	}
+	
+.main p{
+	
+	color:#fff;
+	font-size:14px;
+	padding-left:420px;
+	line-height:26px;
+	}			
+	
+	
+	
+	
+.yiran120{
+	height:1380px;
+	width:100%;
+	background:url(img/yiran120_02.png) center bottom no-repeat;
+	
+	}	
+	
+.yiran120 h1{
+	
+	font-size:40px;
+	color:#333;
+	text-align:center;
+	line-height:80px;
+	padding-top:120px;}	
+	
+	
+.yiran120 p{
+	font-size:18px;
+	color:#333;
+	text-align:center;
+	line-height:26px;}	
+
+
+
+.tiaojie{
+	width:100%;
+	height:920px;
+	background:url(img/tiaojie_04.png) center bottom no-repeat; }
+	
+.tiaojie h2{
+	font-size:40px;
+	
+	text-align:center;
+	color:#333;
+	line-height:80px;
+	padding-top:140px;}	
+	
+.tiaojie P{
+	font-size:18px;
+	color:#333;
+	text-align:center;
+	line-height:26px;}	
+	
+
+
+.tiaojie2{
+	width:100%;
+	height:auto;
+	background:url(img/anniu_07.png) center  center no-repeat;
+	}
+	
+	
+.pic123{
+	text-align:center;}
+	
+	
+.tiaojie2 h3{
+	font-size:30px;
+	
+	color:#333;
+	line-height:80px;
+	padding:100px 0 0 450px;
+	}	
+	
+.tiaojie2 p{
+	font-size:16px;
+	color:#333;
+	line-height:24px;
+	padding:0 0 0 450px;}
+	
+	
+.tiaojie2 h6{
+	font-size:16px;
+	color:#333;
+	line-height:24px;
+	padding:780px 0 0 1060px;
+	}	
+	
+.sheji{
+	}
+	
+	
+.biaoti{
+	width:100%;
+	margin:0 auto;
+	height:300px;
+	border-bottom:1px #b0b0b0 solid;}
+	
+	
+.biaoti h1{
+	font-size:60px;
+	color:#333;
+	font-weight:100;
+	text-align:center;
+	line-height:60px;
+	padding-top:120px;
+	
+}						
+
+.biaoti h6{
+	font-size:18px;
+	
+	text-align:center;
+	line-height:80px;}
+
+.toudai{
+	width:100%;
+	height:610px;
+	margin:0 auto;
+	}	
+	
+.toudai h3{
+	font-size:35px;
+	
+	text-align:center;
+	color:#333;
+	line-height:60px;
+	padding-top:70px;
+	}
+	
+.toudai p{
+	font-size:18px;
+	text-align:center;
+	color:#333;
+	line-height:40px;
+	padding-bottom:40px;
+	}	
+	
+.tiji{
+	width:100%;
+	height:680px;
+	margin:0 auto;
+	}
+	
+.tiji h3{
+	font-size:35px;
+	
+	text-align:center;
+	color:#333;
+	line-height:60px;
+	padding:70px 0 30px 0;
+	}
+	
+.tiji p{
+	font-size:18px;
+	text-align:center;
+	color:#333;
+	line-height:27px;
+	padding-bottom:40px;
+	}
+	
+	
+.z4_canshu{ width:100%; background:#fff; padding:80px 0 80px 0;}
+.z4_canshua{ width:100%; margin:0 auto;}
+.z4_canshua a{ color:#ff6700;}
+.z4_canshuac{ width:100%; height:95px; border:1px solid #878787; font-size:35px; text-align:center; line-height:95px; font-family:"xiaobai";}
+.z4_canshuac:hover{ border:1px solid #ff6700;}			
+
+
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+.tiaojie2 h6, .tiaojie2 p,.main h6,.main h1,.main p,.tiaojie2 h3{padding:0}
+.qingbao img, .main img, .yiran120 img, .tiaojie img, .tiaojie2 img, .sheji img, .z4_canshu img{width:100%}
+.qingbao h2,.qingbao h1,.qingbao h3,.yiran120 h2,.yiran120 h1,.yiran120 h3,.tiaojie h2,.tiaojie h1,.tiaojie h3,.tiaojie2 h2,.tiaojie2 h1,.tiaojie2 h3{line-height:normal;font-size:30px}
+}
+
+
+	
