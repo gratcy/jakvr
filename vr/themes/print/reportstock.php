@@ -1,9 +1,14 @@
 <?php
 if ($post['format'] == 2) {
-$filename ="reportstock-".date('d-m-Y').".xls";
-header('Content-type: application/vnd.ms-excel; charset=utf-8');
-header('Content-Disposition: attachment; filename='.$filename);
-header("Cache-Control: max-age=0");
+	$filename ="reportstock-".date('d-m-Y').".xls";
+	header('Content-type: application/vnd.ms-excel; charset=utf-8');
+	header('Content-Disposition: attachment; filename='.$filename);
+	header("Cache-Control: max-age=0");
+	$wew = $post['datesort'];
+	$wew = explode(' - ', $wew);
+	$from = date('Y-m-d',strtotime($wew[0]));
+	$to = date('Y-m-d',strtotime($wew[1]));
+	$post['datesort'] = $from . ' - ' . $to;
 }
 ?>
 <html>

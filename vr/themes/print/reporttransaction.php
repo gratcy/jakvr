@@ -7,6 +7,11 @@ if ($post['format'] == 2) {
 	header('Content-Disposition: attachment; filename='.$filename);
 	header("Cache-Control: max-age=0");
 	$etype = 5;
+	$wew = $post['datesort'];
+	$wew = explode(' - ', $wew);
+	$from = date('Y-m-d',strtotime($wew[0]));
+	$to = date('Y-m-d',strtotime($wew[1]));
+	$post['datesort'] = $from . ' - ' . $to;
 }
 ?>
 <html>
@@ -77,7 +82,10 @@ if ($post['format'] == 2) {
 										<td style="border:1px solid #000;padding:3px;"><?php echo $i; ?>.</td>
 										<td style="border:1px solid #000;padding:3px;">
 										<?php
-										$date = __get_date($v -> tdate,1);
+										if ($post['format'] == 2)
+											$date = date('Y-m-d',$v -> tdate);
+										else
+											$date = __get_date($v -> tdate,1);
 										echo $date;
 										//~ if($tgl <> $date){
 											//~ $tgl = $date;
@@ -190,7 +198,10 @@ if ($post['format'] == 2) {
 										<td style="border:1px solid #000;padding:3px;"><?php echo $i; ?>.</td>
 										<td style="border:1px solid #000;padding:3px;">
 										<?php
-										$date = __get_date($v -> tdate,1);
+										if ($post['format'] == 2)
+											$date = date('Y-m-d',$v -> tdate);
+										else
+											$date = __get_date($v -> tdate,1);
 										if($tgl <> $date){
 											$tgl = $date;
 											echo $tgl;
@@ -357,7 +368,10 @@ if ($post['format'] == 2) {
 										<td style="border:1px solid #000;padding:3px;"><?php echo $i; ?>.</td>
 										<td style="border:1px solid #000;padding:3px;">
 										<?php
-										$date = __get_date($v -> tdate,1);
+										if ($post['format'] == 2)
+											$date = date('Y-m-d',$v -> tdate);
+										else
+											$date = __get_date($v -> tdate,1);
 										if($tgl <> $date){
 											$tgl = $date;
 											echo $tgl;
