@@ -9,7 +9,7 @@
     <title>Hubungi Kami - Fiit VR Indonesia</title>
 <meta name="keywords" content="Jual FiitVR, Jual Kacamata VR, Jual Fiit VR, Jual Fiit VR Termurah dan terbaik, FiitVR 2N, FiitVR 2F, FiitVR 3F, Virtual Reality" />
 <meta name="description" content="Hubungi Kami Fiit VR Indonesia. FiitVR Kacamata VR Terbaik."/> 
-    <link href="/assets/lib.min.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/lib.min.css?<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 <link href="/assets/page_contact.min.css" rel="stylesheet" type="text/css" />
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 <link rel="bookmark" href="/favicon.ico">
@@ -96,14 +96,6 @@ $(document).ready(function(){
             </div>  
             <div id="box_header_sub2_sub1_sub2"> 
               <div xmlns="" class="columnSpace" id="elem-FrontColumns_navigation01-1464773953300" name="栏目导航">  
-                <script type="text/javascript">
-	//<![CDATA[
-	FrontColumns_navigation01['FrontColumns_navigation01-1464773953300_init'] = function (){
-		FrontColumns_navigation01.d2ddlevelsmenu.init("d2menubar_FrontColumns_navigation01-1464773953300", "topbar");
-	}
-	$(FrontColumns_navigation01['FrontColumns_navigation01-1464773953300_init']);
-	// ]]>
-</script>
 <div id="FrontColumns_navigation01-1464773953300" class="FrontColumns_navigation01-d2_c1"><div id="d2menubar_FrontColumns_navigation01-1464773953300" class="mattblackmenu">
 		<ul class="nav-first">
 			<li class="first nav_hot">
@@ -293,21 +285,37 @@ $(document).ready(function(){
               <a class="jiathis_button_google" title="Share on Google"><span class="jiathis_txt jtico jtico_google"></span></a>  
               <a class="jiathis_button_tsina" title="Share on Sina Weibo"><span class="jiathis_txt jtico jtico_tsina"></span></a> 
 -->
-              <a href="https://www.facebook.com/Jakvrcom/" class="jiathis_button_fb" title="Share on Facebook"><span class="jiathis_txt jtico jtico_fb"></span></a>  
-              <a href="https://plus.google.com/+JakvrGadget" class="jiathis_button_google" title="Share on Google"><span class="jiathis_txt jtico jtico_google"></span></a>    
-              <a href="https://www.instagram.com/jakvr/" class="jiathis_button_tsina" title="Share on Instagram"><span class="jiathis_txt jtico jtico_tsina"></span></a>
+              <a href="https://www.facebook.com/Jakvrcom/" class="jiathis_button_fb" target="_blank" title="Share on Facebook"><span class="jiathis_txt jtico jtico_fb"></span></a>  
+              <a href="https://plus.google.com/+JakvrGadget" class="jiathis_button_google" target="_blank" title="Share on Google"><span class="jiathis_txt jtico jtico_google"></span></a>    
+              <a href="https://www.instagram.com/jakvr/" class="jiathis_button_tsina" target="_blank" title="Share on Instagram"><span class="jiathis_txt jtico jtico_tsina"></span></a>
             </div>  
-                        <script type="text/javascript">
-var jiathis_config={
-    summary:"",
-    shortUrl:false,
-    hideMore:false
-}
-$(function(){
-    $(".jiathis_button_fb").attr("title","Share on Facebook");
-    $(".jiathis_button_google").attr("title","Share on Google");
-    $(".jiathis_button_tsina").attr("title","Share on Instagram");
-});
-</script>                          <script charset="utf-8" src="./assets/jia.js" type="text/javascript"></script><script type="text/javascript" src="./assets/plugin.client.js" charset="utf-8"></script>  
-            <!-- JiaThis Button END -->           </div>            <div class="clearBoth"></div>         </div>       </div>  
-      <!-- 底部版权结束 -->     </div>   <div id="elem-FrontPublic_wisher01-2014"></div><div id="1501475306684" class="jquery-lightbox-overlay" style="position: fixed; top: 0px; left: 0px; opacity: 0.6; display: none; z-index: 99998;"></div><div class="jquery-lightbox-move" style="position: absolute; z-index: 99999; top: -999px;"><div class="jquery-lightbox jquery-lightbox-mode-image"><div class="jquery-lightbox-border-top-left"></div><div class="jquery-lightbox-border-top-middle"></div><div class="jquery-lightbox-border-top-right"></div><a class="jquery-lightbox-button-close" href="http://fiitvr.id/#close"><span>Close</span></a><div class="jquery-lightbox-navigator"><a class="jquery-lightbox-button-left" href="http://fiitvr.id/#"><span>Previous</span></a><a class="jquery-lightbox-button-right" href="http://fiitvr.id/#"><span>Next</span></a></div><div class="jquery-lightbox-buttons"><div class="jquery-lightbox-buttons-init"></div><a class="jquery-lightbox-button-left" href="http://fiitvr.id/#"><span>Previous</span></a><a class="jquery-lightbox-button-max" href="http://fiitvr.id/#"><span>Maximize</span></a><div class="jquery-lightbox-buttons-custom"></div><a class="jquery-lightbox-button-right" href="http://fiitvr.id/#"><span>Next</span></a><div class="jquery-lightbox-buttons-end"></div></div><div class="jquery-lightbox-background"></div><div class="jquery-lightbox-html"></div><div class="jquery-lightbox-border-bottom-left"></div><div class="jquery-lightbox-border-bottom-middle"></div><div class="jquery-lightbox-border-bottom-right"></div></div></div></body></html>
+            
+<div class="soc_med">
+  <ul class="clearenter">
+    <li>
+      <a href="https://www.facebook.com/jakvrcom"><img src="http://rss.indogamers.com/system/views/default/images/side_fb.jpg"></a>
+      <div class="show_soc_med">
+        <span>
+          <div class="fb-like fb_iframe_widget" data-href="https://www.facebook.com/jakvrcom" data-width="300" data-layout="standard" data-action="like" data-show-faces="false" data-share="false" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=like&amp;app_id=1778992242382976&amp;container_width=0&amp;href=https%3A%2F%2Fwww.facebook.com%2Fjakvrcom&amp;layout=standard&amp;locale=en_US&amp;sdk=joey&amp;share=false&amp;show_faces=false&amp;width=300"><span style="vertical-align: bottom; width: 300px; height: 20px;"><iframe name="ff375429d9f9bc" width="300px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="fb:like Facebook Social Plugin" src="https://www.facebook.com/v2.7/plugins/like.php?action=like&amp;app_id=1778992242382976&amp;channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2F_dMxoUH0Bax.js%3Fversion%3D42%23cb%3Df6efe115970c9c%26domain%3Djakvr.com%26origin%3Dhttp%253A%252F%252Fjakvr.com%252Ff9309661c25894%26relation%3Dparent.parent&amp;container_width=0&amp;href=https%3A%2F%2Fwww.facebook.com%2Fjakvrcom&amp;layout=standard&amp;locale=en_US&amp;sdk=joey&amp;share=false&amp;show_faces=false&amp;width=300" style="border: none; visibility: visible; width: 300px; height: 20px;" class=""></iframe></span></div>
+        </span>
+      </div>
+    </li>
+    <li>
+      <a href="https://instagram.com/jakvr"><img src="http://jakvr.com/wp-content/uploads/2017/01/Instagram.png"></a>
+      <div class="show_soc_med" style="width: 280px;">
+        <span>
+          <a href="https://www.instagram.com/jakvr/" class="" data-show-count="true">Follow @jakvr</a>
+        </span>
+      </div>
+    </li>
+    <li>
+      <a href="https://plus.google.com/JakvrGadget"><img src="http://rss.indogamers.com/system/views/default/images/side_plus.jpg"></a>
+      <div class="show_soc_med">
+        <span>
+          <div id="___page_0" style="text-indent: 0px; margin: 0px; padding: 0px; background: transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 300px; height: 106px;"><iframe ng-non-bindable="" frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 300px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 106px;" tabindex="0" vspace="0" width="100%" id="I0_1492538199045" name="I0_1492538199045" src="https://apis.google.com/u/0/_/widget/render/page?usegapi=1&amp;href=https%3A%2F%2Fplus.google.com%2F%2BJakvrGadget&amp;layout=landscape&amp;rel=publisher&amp;origin=http%3A%2F%2Fjakvr.com&amp;gsrc=3p&amp;ic=1&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en.TZG5CT2iX2s.O%2Fm%3D__features__%2Fam%3DAQ%2Frt%3Dj%2Fd%3D1%2Frs%3DAGLTcCPeqiX9n5v1QkE75Er_x0NQeANiwg#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Cdrefresh%2Cerefresh%2Conload&amp;id=I0_1492538199045&amp;parent=http%3A%2F%2Fjakvr.com&amp;pfname=&amp;rpctoken=35056314" data-gapiattached="true" title="+Badge"></iframe></div>
+        </span>
+      </div>
+    </li>
+  </ul>
+</div>
+</body></html>
