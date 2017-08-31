@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 -->
 <!-- InstanceBeginEditable name="head" -->  
-    <title>Tentang Kami - Fiit VR Indonesia</title>
+<title>Tentang Kami - Fiit VR Indonesia</title>
 <meta name="keywords" content="Jual FiitVR, Jual Kacamata VR, Jual Fiit VR, Jual Fiit VR Termurah dan terbaik, FiitVR 2N, FiitVR 2F, FiitVR 3F, Virtual Reality" />
 <meta name="description" content="Tentang Kami Fiit VR Indonesia. FiitVR Kacamata VR Terbaik."/>  
     <link href="/assets/lib.min.css" rel="stylesheet" type="text/css" />
@@ -25,6 +25,16 @@ $('#elem-FrontColumns_navigation01-1464773953300 ul> li:eq(5) a').addClass("curr
 })
 </script>
     <!-- InstanceEndEditable --> 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-97140766-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
   </head>  
   <body  id="contact"> 
     <div class="pageWidth" id="box_root"> 

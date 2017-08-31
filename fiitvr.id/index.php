@@ -30,7 +30,16 @@ $(this).lightbox();
 })
 })
 </script>
-<!-- LightBox 结束 -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-97140766-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
   </head>  
   <body id="index"><link href="./assets/jiathis_share.css?<?php echo time();?>" rel="stylesheet" type="text/css"><iframe frameborder="0" style="position: absolute; display: none; opacity: 0;" src="./assets/saved_resource"></iframe><div class="jiathis_style" style="position: absolute; z-index: 1000000000; display: none; top: 50%; left: 50%; overflow: auto;"></div><div class="jiathis_style" style="position: absolute; z-index: 1000000000; display: none; overflow: auto;"></div><iframe frameborder="0" src="./assets/jiathis_utility.html" style="display: none;"></iframe> 
     <div class="pageWidth" id="box_root"> 
