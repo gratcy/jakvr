@@ -54,14 +54,14 @@ if ($p) {
 			<li> <a href="http://gamesir.id/product_main" >Produk</a></li>
           	<li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0);" >Etalase</a>
           	<ul class="dropdown-menu">
-			<li><a href="https://www.tokopedia.com/koekmurah/etalase/gamepad?keyword=gamesir" target="_blank">Tokopedia</a></li>
-          	<li><a href="https://www.bukalapak.com/koekmurah" target="_blank">Bukalapak</a></li>
+			<li><a href="https://www.tokopedia.com/gamesir" target="_blank">Tokopedia</a></li>
+          	<li><a href="https://www.bukalapak.com/gamesir" target="_blank">Bukalapak</a></li>
           	<li><a href="http://www.lazada.co.id/gamesir/?boost=3&jakvr&sort=popularity&viewType=gridView&fs=1" target="_blank">Lazada</a></li>
-          	<li><a href="https://shopee.co.id/shop/6994756/search/?shopCollection=3681279" target="_blank">Shopee</a></li>
+          	<li><a href="https://shopee.co.id/gamesir" target="_blank">Shopee</a></li>
           	</ul>
           	</li>
           	<li> <a href="http://gamesir.id/faq" >Support</a></li>
-          	<li> <a href="http://gamesir.id/blog" >Blog</a></li>
+          	<li> <a href="https://blog.gamesir.id/" >Blog</a></li>
           	<li> <a href="http://gamesir.id/contact-us" >Hubungi Kami</a></li> 
           			</ul>   
 		</div><!--/.nav-collapse -->
@@ -106,13 +106,13 @@ if ($p) {
         </div>
         <div class="col-xs-6 col-sm-6 col-md-6">
           <div class="thumbnail">
-            <a href="https://www.youtube.com/channel/UCy7rMy_u3XBzXap5TOjkQQw" target="_blank"><img src="http://gamesir.id/assets/img/linkfast/link-fast-3.jpg" alt="bluetooth gamepad" border="0"></a>
+            <a href="https://www.youtube.com/channel/UCZhblvtYPVNoxR6APnRpbCA" target="_blank"><img src="http://gamesir.id/assets/img/linkfast/link-fast-3.jpg" alt="bluetooth gamepad" border="0"></a>
             
           </div>
         </div>
         <div class="col-xs-6 col-sm-6 col-md-6">
           <div class="thumbnail">
-            <a href="https://www.tokopedia.com/koekmurah/etalase/gamepad?keyword=gamesir" target="_blank"><img src="http://gamesir.id/assets/img/linkfast/link-fast-4.jpg" alt="bluetooth gamepad" border="0"></a>
+            <a href="https://www.tokopedia.com/gamesir" target="_blank"><img src="http://gamesir.id/assets/img/linkfast/link-fast-4.jpg" alt="bluetooth gamepad" border="0"></a>
           </div>
         </div>
       </div>
@@ -132,8 +132,8 @@ if ($p) {
     <h4>Reviews</h4>
     
 <li><a href="http://jakvr.com/gamepad-gamesir-g4/" title="Review Pengguna">Review Pengguna</a></li>
-<li><a href="https://www.youtube.com/channel/UCy7rMy_u3XBzXap5TOjkQQw" title="Review Video" >Review Video</a></li>
-<li><a href="http://gamesir.id/blog" title="GameSir Blog" >GameSir Blog</a></li>
+<li><a href="https://www.youtube.com/channel/UCZhblvtYPVNoxR6APnRpbCA" title="Review Video" >Review Video</a></li>
+<li><a href="https://blog.gamesir.id/" title="GameSir Blog" >GameSir Blog</a></li>
     </div>
 <div class="col-xs-12 col-sm-3 col-md-3">
     <h4>Support</h4>
@@ -141,7 +141,7 @@ if ($p) {
         	<li><a href="http://gamesir.id/faq" title="FAQ" >FAQ</a></li>
 <li><a href="http://gamesir.id/tutorial-setup-g3s" title="Setup Tutorial">Setup Tutorial</a></li>
 <li><a href="http://jakvr.com/gamesirworld-emulator-happychick/" title="Download APP" >Download APP</a></li>
-<li><a href="https://www.tokopedia.com/koekmurah/etalase/gamepad?keyword=gamesir" title="Etalase" >Etalase</a></li>
+<li><a href="https://www.tokopedia.com/gamesir" title="Etalase" >Etalase</a></li>
 <li><a href="http://gamesir.id/garansi-gamesir" title="Garansi" >Garansi</a></li>
     </div>
 <div class="col-xs-12 col-sm-3 col-md-3">
@@ -177,8 +177,9 @@ if ($p) {
             <li><h4>Follow Us</h4></li>
             <li><a href="https://www.facebook.com/GameSirIndonesia/"><i class="fa fa-facebook"></i></a></li>
             <li><a href="https://www.instagram.com/gamesir.id/"><i class="fa fa-instagram"></i></a></li>
-            <li><a href="https://plus.google.com/+JakvrGadget"><i class="fa fa-google-plus"></i></a></li>
-            <li><a href="https://www.youtube.com/channel/UCy7rMy_u3XBzXap5TOjkQQw"><i class="fa fa-youtube-play"></i></a></li>
+            <li class="hide"><a href="https://plus.google.com/+JakvrGadget"><i class="fa fa-google-plus"></i></a></li><li><a href="https://twitter.com/gamesirid"><i class="fa fa-twitter"></i></a></li>
+            
+            <li><a href="https://www.youtube.com/channel/UCZhblvtYPVNoxR6APnRpbCA"><i class="fa fa-youtube-play"></i></a></li>
           </ul>
         </div>
       </div>

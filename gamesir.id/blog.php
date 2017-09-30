@@ -35,7 +35,7 @@ if ($read && !empty($slug)) {
 		if ($v['slug'] == $slug) $post[] = $v;
 	}
 	if (!$post) {
-		header('location: http://gamesir.id/blog');
+		header('location: https://blog.gamesir.id/');
 		die;
 	}
 	$title = $post[0]['title'] . ' | GameSir Indonesia';
@@ -105,14 +105,14 @@ if ($read && !empty($slug)) {
 			<li> <a href="product_main" >Produk</a></li>
           	<li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0);" >Etalase</a>
           	<ul class="dropdown-menu">
-			<li><a href="https://www.tokopedia.com/koekmurah/etalase/gamepad?keyword=gamesir" target="_blank">Tokopedia</a></li>
-          	<li><a href="https://www.bukalapak.com/koekmurah" target="_blank">Bukalapak</a></li>
+			<li><a href="https://www.tokopedia.com/gamesir" target="_blank">Tokopedia</a></li>
+          	<li><a href="https://www.bukalapak.com/gamesir" target="_blank">Bukalapak</a></li>
           	<li><a href="http://www.lazada.co.id/gamesir/?boost=3&jakvr&sort=popularity&viewType=gridView&fs=1" target="_blank">Lazada</a></li>
-          	<li><a href="https://shopee.co.id/shop/6994756/search/?shopCollection=3681279" target="_blank">Shopee</a></li>
+          	<li><a href="https://shopee.co.id/gamesir" target="_blank">Shopee</a></li>
           	</ul>
           	</li>
           	<li> <a href="/faq" class="active">Support</a></li>
-          	<li class="active"> <a href="http://gamesir.id/blog" >Blog</a></li>
+          	<li class="active"> <a href="https://blog.gamesir.id/" >Blog</a></li>
           	<li> <a href="/contact-us" >Hubungi Kami</a></li>
                     </ul>   
         </div><!--/.nav-collapse -->
@@ -139,7 +139,7 @@ if ($read && !empty($slug)) {
 </p>
 <br />
 <p class="list-group-item-text">
-	<a href="http://gamesir.id/blog/<?php echo $post[0]['slug']; ?>" title="<?php echo $post[0]['title']; ?>"><img style="width:100%" src="<?php echo $post[0]['thumbnail_images']['full']['url']; ?>" title="<?php echo $v['title']; ?>" alt="<?php echo $v['title']; ?>"></a>
+	<a href="https://blog.gamesir.id//<?php echo $post[0]['slug']; ?>" title="<?php echo $post[0]['title']; ?>"><img style="width:100%" src="<?php echo $post[0]['thumbnail_images']['full']['url']; ?>" title="<?php echo $v['title']; ?>" alt="<?php echo $v['title']; ?>"></a>
 </p>
 <br />
 <p><?php echo __text_cuts($post[0]['content'],1000);?></p>
@@ -159,14 +159,14 @@ $arr = json_decode($str, true);
 foreach($arr['posts'] as $k => $v) {
 ?>
 <div class="list-group-item">
-<a href="http://gamesir.id/blog/<?php echo $v['slug']; ?>" title="<?php echo $v['title']; ?>"><h4 class="list-group-item-heading"><?php echo $v['title']; ?> <span class="pull-right"><?php echo  $v['author']['name'] . ' | ' . date('d/m/Y',strtotime($v['date']))?></span></h4></a>
+<a href="https://blog.gamesir.id//<?php echo $v['slug']; ?>" title="<?php echo $v['title']; ?>"><h4 class="list-group-item-heading"><?php echo $v['title']; ?> <span class="pull-right"><?php echo  $v['author']['name'] . ' | ' . date('d/m/Y',strtotime($v['date']))?></span></h4></a>
 <br />
 <p class="list-group-item-text aligncenter">
-	<a href="http://gamesir.id/blog/<?php echo $v['slug']; ?>" title="<?php echo $v['title']; ?>"><img style="width:80%" src="<?php echo $v['thumbnail_images']['full']['url']; ?>" title="<?php echo $v['title']; ?>" alt="<?php echo $v['title']; ?>"></a>
+	<a href="https://blog.gamesir.id//<?php echo $v['slug']; ?>" title="<?php echo $v['title']; ?>"><img style="width:80%" src="<?php echo $v['thumbnail_images']['full']['url']; ?>" title="<?php echo $v['title']; ?>" alt="<?php echo $v['title']; ?>"></a>
 </p>
 <p class="list-group-item-text">
 <?php echo strip_tags($v['excerpt']); ?></p>
-<p class="text-right"><a href="http://gamesir.id/blog/<?php echo $v['slug']; ?>" title="<?php echo $v['title']; ?>">MORE</a></p>
+<p class="text-right"><a href="https://blog.gamesir.id//<?php echo $v['slug']; ?>" title="<?php echo $v['title']; ?>">MORE</a></p>
 </div>
 <?php
 }
@@ -194,8 +194,8 @@ foreach($arr['posts'] as $k => $v) {
     <h4>Reviews</h4>
     
 <li><a href="http://jakvr.com/gamepad-gamesir-g4/" title="Review Pengguna">Review Pengguna</a></li>
-<li><a href="https://www.youtube.com/channel/UCy7rMy_u3XBzXap5TOjkQQw" title="Review Video" >Review Video</a></li>
-<li><a href="http://gamesir.id/blog" title="GameSir Blog" >GameSir Blog</a></li>
+<li><a href="https://www.youtube.com/channel/UCZhblvtYPVNoxR6APnRpbCA" title="Review Video" >Review Video</a></li>
+<li><a href="https://blog.gamesir.id/" title="GameSir Blog" >GameSir Blog</a></li>
     </div>
 <div class="col-xs-12 col-sm-3 col-md-3">
     <h4>Support</h4>
@@ -203,7 +203,7 @@ foreach($arr['posts'] as $k => $v) {
         	<li><a href="http://gamesir.id/faq" title="FAQ" >FAQ</a></li>
 <li><a href="http://gamesir.id/tutorial-setup-g3s" title="Setup Tutorial">Setup Tutorial</a></li>
 <li><a href="http://jakvr.com/gamesirworld-emulator-happychick/" title="Download APP" >Download APP</a></li>
-<li><a href="https://www.tokopedia.com/koekmurah/etalase/gamepad?keyword=gamesir" title="Etalase" >Etalase</a></li>
+<li><a href="https://www.tokopedia.com/gamesir" title="Etalase" >Etalase</a></li>
 <li><a href="http://gamesir.id/garansi-gamesir" title="Garansi" >Garansi</a></li>
     </div>
 <div class="col-xs-12 col-sm-3 col-md-3">
@@ -239,8 +239,8 @@ foreach($arr['posts'] as $k => $v) {
             <li><h4>Follow Us</h4></li>
             <li><a href="https://www.facebook.com/GameSirIndonesia/"><i class="fa fa-facebook"></i></a></li>
             <li><a href="https://www.instagram.com/gamesir.id/"><i class="fa fa-instagram"></i></a></li>
-            <li><a href="https://plus.google.com/+JakvrGadget"><i class="fa fa-google-plus"></i></a></li>
-            <li><a href="https://www.youtube.com/channel/UCy7rMy_u3XBzXap5TOjkQQw"><i class="fa fa-youtube-play"></i></a></li>
+            <li class="hide"><a href="https://plus.google.com/+JakvrGadget"><i class="fa fa-google-plus"></i></a></li><li><a href="https://twitter.com/gamesirid"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCZhblvtYPVNoxR6APnRpbCA"><i class="fa fa-youtube-play"></i></a></li>
           </ul>
         </div>
       </div>
