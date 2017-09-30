@@ -774,36 +774,71 @@ Buku petunjuk *1
 .pull-left .earth{background-image:url(/assets/img/earth_blue.png)}
 .pull-right li a:hover{color:#00b4ff;}
 </style>
-  <footer style="border-top:1px solid #cecece;background-color:#fff;">
+
+  <!-- Footer -->
+    <div class="index-footer">
+      <div class="container hidden-xs">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12">
+         <div class="col-xs-12 col-sm-3 col-md-3">
+    <h4>Product</h4>
+    
+      <li><a href="http://gamesir.id/g4" title="GameSir G4">G4</a></li><li><a href="http://gamesir.id/t1s" title="GameSir T1s">T1s</a></li><li><a title="GameSir M2" href="http://gamesir.id/product_main">M2</a></li><li><a href="http://gamesir.id/g4s" title="GameSir G4s">G4s</a></li><li><a title="GameSir G3" href="http://gamesir.id/g3">G3</a></li><li><a title="GameSir G3f" href="http://gamesir.id/g3f">G3f</a></li><li><a title="GameSir G3w" href="http://gamesir.id/g3w">G3w</a></li><li><a href="http://gamesir.id/g3v" title="GameSir G3v">G3v</a></li><li><a title="GameSir G3s" href="http://gamesir.id/g3s">G3s</a></li><li><a title="GameSir G2u" href="http://gamesir.id/g2u">G2u</a></li>  </div>
+<div class="col-xs-12 col-sm-3 col-md-3">
+    <h4>Reviews</h4>
+    
+<li><a href="http://jakvr.com/gamepad-gamesir-g4/" title="Review Pengguna">Review Pengguna</a></li>
+<li><a href="https://www.youtube.com/channel/UCy7rMy_u3XBzXap5TOjkQQw" title="Review Video" >Review Video</a></li>
+<li><a href="http://gamesir.id/blog" title="GameSir Blog" >GameSir Blog</a></li>
+    </div>
+<div class="col-xs-12 col-sm-3 col-md-3">
+    <h4>Support</h4>
+    
+        	<li><a href="http://gamesir.id/faq" title="FAQ" >FAQ</a></li>
+<li><a href="http://gamesir.id/tutorial-setup-g3s" title="Setup Tutorial">Setup Tutorial</a></li>
+<li><a href="http://jakvr.com/gamesirworld-emulator-happychick/" title="Download APP" >Download APP</a></li>
+<li><a href="https://www.tokopedia.com/koekmurah/etalase/gamepad?keyword=gamesir" title="Etalase" >Etalase</a></li>
+<li><a href="http://gamesir.id/garansi-gamesir" title="Garansi" >Garansi</a></li>
+    </div>
+<div class="col-xs-12 col-sm-3 col-md-3">
+    <h4>About us</h4>
+    
+        	<li><a href="/about-us" title="Tentang GameSir" >Tentang GameSir</a></li>
+<li><a href="http://gamesir.id/contact-us" title="Hubungi Kami" >Hubungi Kami</a></li>
+<li><a href="http://gamesir.id/distributor" title="Distributor" >Distributor</a></li>
+<li><a href="http://gamesir.id/contact-us" title="Marketing" >Marketing</a></li>
+    </div>
+    <br />
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </div>
+   </div>
+  <footer>
       <div class="container">
-       <div class="pull-left">
+        <div class="pull-left">
           <div class="form-group">
             <label class="pull-left"><div class="earth"></div></label>
-            <div class="pull-left" style="">
-		        -<a href="http://gamesir.id/">Indonesia</a> 
-				-<a href="http://www.gamesir.hk/" target="_blank">English</a>
-		        -<a href="http://www.gamesir.hk/de/index.html" target="_blank">Deutsch</a>
+            <div class="pull-left">
+			-<a href="http://gamesir.id/">Indonesia</a> 
+            -<a href="http://www.gamesir.hk/" target="_blank">English</a>
+            
             </div>
           </div>
+        </div>
+        <div class="pull-left cpbottom">
+          <p class="text-center">Copyright © <?php echo date('Y'); ?> <a href="http://www.gamesir.id" target="_blank" title="GameSir Indonesia"><font color="#FFFFFF">GameSir Indonesia</font></a>. All Rights Reserved</p>
         </div>
         <div class="pull-right">
           <ul class="list-inline">
             <li><h4>Follow Us</h4></li>
- 			<li><a href="https://www.facebook.com/GameSirIndonesia/"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://www.facebook.com/GameSirIndonesia/"><i class="fa fa-facebook"></i></a></li>
             <li><a href="https://www.instagram.com/gamesir.id/"><i class="fa fa-instagram"></i></a></li>
             <li><a href="https://plus.google.com/+JakvrGadget"><i class="fa fa-google-plus"></i></a></li>
             <li><a href="https://www.youtube.com/channel/UCy7rMy_u3XBzXap5TOjkQQw"><i class="fa fa-youtube-play"></i></a></li>
           </ul>
         </div>
-        <div class="clearfix"></div>
       </div>
-    <!-- / .Footer -->
-  </footer>
-  <footer>
-      <div class="container">
-      <div><p class="text-center" style="padding-left:0px;">Copyright © <?php echo date('Y'); ?> <a href="http://www.gamesir.id" target="_blank" title="GameSir Indonesia"><font color="#FFFFFF">GameSir Indonesia</font></a>. All Rights Reserved<br />(Unofficial Website GameSir)</p></div>
-      </div>
-  </footer>
+    
     <!-- JavaScript -->
     <script src="/assets/js/jquery.min.js"></script>
     <script src="/assets/js/bootstrap.min.js"></script>

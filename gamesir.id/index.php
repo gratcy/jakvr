@@ -149,7 +149,7 @@ if ($p) {
     
         	<li><a href="/about-us" title="Tentang GameSir" >Tentang GameSir</a></li>
 <li><a href="http://gamesir.id/contact-us" title="Hubungi Kami" >Hubungi Kami</a></li>
-<li><a href="http://gamesir.id/contact-us" title="Distributor" >Distributor</a></li>
+<li><a href="http://gamesir.id/distributor" title="Distributor" >Distributor</a></li>
 <li><a href="http://gamesir.id/contact-us" title="Marketing" >Marketing</a></li>
     </div>
     <br />
@@ -165,12 +165,12 @@ if ($p) {
             <div class="pull-left">
 			-<a href="http://gamesir.id/">Indonesia</a> 
             -<a href="http://www.gamesir.hk/" target="_blank">English</a>
-            -<a href="http://www.gamesir.hk/de/index.html" target="_blank">Deutsch</a>
+            
             </div>
           </div>
         </div>
         <div class="pull-left cpbottom">
-          <p class="text-center">Copyright © <?php echo date('Y'); ?> <a href="http://www.gamesir.id" target="_blank" title="GameSir Indonesia"><font color="#FFFFFF">GameSir Indonesia</font></a>. All Rights Reserved<br />(Unofficial Website GameSir)</p>
+          <p class="text-center">Copyright © <?php echo date('Y'); ?> <a href="http://www.gamesir.id" target="_blank" title="GameSir Indonesia"><font color="#FFFFFF">GameSir Indonesia</font></a>. All Rights Reserved</p>
         </div>
         <div class="pull-right">
           <ul class="list-inline">

@@ -3,15 +3,15 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>FAQ | GameSir Indonesia</title>
-    <meta name="keywords" content="Jual Gamesir,gamesir,Smartphone Gamepad,Smartphone Controller,game controller,gamepad,bluetooth gamepad,android gamepad,pc controller,controller pc.bluetooth controller,android controller.">
-    <meta name="description" content="Tanya jawab mengenai pengguna Gamesir. Pertanyaan-pertanyaan seputar menggunakan Gamesir.">
+    <title>GameSir Indonesia | Menjadi Distributor Kami</title>
+    <meta name="keywords" content="Jual Gamesir,gamesir,Smartphone Gamepad,Smartphone Controller,game controller,gamepad,bluetooth gamepad,android gamepad,pc controller,controller pc.bluetooth controller,android controller,distributor gamesir.">
+    <meta name="description" content="Daftarkan Toko Anda untuk menjadi Distributor Product GameSir di Indonesia.">
     <link rel="shortcut icon" href="/favicon.ico">
-    <meta property="og:url" content="http://gamesir.id/about-us" />
+    <meta property="og:url" content="http://gamesir.id/contact-us" />
     <meta property="fb:app_id" content="300143436741642" />
     <meta property="fb:admins" content="100000149676767" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="GameSir Indonesia | Tentang Kami" />
+    <meta property="og:title" content="GameSir Indonesia | Menjadi Distributor Kami" />
     <meta property="og:image" content="http://gamesir.id/assets/img/GameSir-Logo.jpg" />
     <meta property="og:site_name" content="gamesir.id" />
     <meta property="og:description" content="Jual Gamepad Murah GameSir multi platform, The Global Leading Game Controller Brand." />
@@ -29,15 +29,6 @@
   ga('send', 'pageview');
 
 </script>
-<style>
-.answer {display:none}
-.question {cursor:pointer;}
-.question > a {color:#000}
-.form-group, .pull-right{padding-top:20px;}	
-.pull-left, .pull-left > a, .list-inline li a, .list-inline h4{color:#163247;}
-.pull-left .earth{background-image:url(/assets/img/earth_blue.png)}
-.pull-right li a:hover{color:#00b4ff;}
-</style>
 <body>
 <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
@@ -52,7 +43,7 @@
         </div>
         <div class="collapse navbar-collapse">        
           <ul class="nav navbar-nav navbar-right">
-				<li><a href="/">home</a></li>
+				<li class="active"><a href="/" >home</a></li>
 			<li> <a href="product_main" >Produk</a></li>
           	<li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0);" >Etalase</a>
           	<ul class="dropdown-menu">
@@ -62,8 +53,8 @@
           	<li><a href="https://shopee.co.id/shop/6994756/search/?shopCollection=3681279" target="_blank">Shopee</a></li>
           	</ul>
           	</li>
-          	<li class="active"> <a href="/faq" class="active">Support</a></li>
-          	<li> <a href="http://gamesir.id/blog" >Blog</a></li>
+          	<li > <a href="/faq" >Support</a></li>
+          	<li > <a href="http://gamesir.id/blog" >Blog</a></li>
           	<li> <a href="/contact-us" >Hubungi Kami</a></li>
                     </ul>   
         </div><!--/.nav-collapse -->
@@ -74,52 +65,29 @@
 <!-- / .container -->
       <div class="container">
         <div class="row">
-			<div class="col-sm-4">
+          <div class="col-sm-12">
             
-            <h1 class="sidetitle">Support</h1>
+            <h1 class="sidetitle">Menjadi Distributor Kami</h1>
             <!-- Categories -->
-            <div class="panel-group" id="help-nav">
-              <div class="side">
-    <div class="side-heading">
-        <a href="/faq" data-parent="#help-nav" class="collapsed">
-          FAQ          
-        </a>
-      </div>
-       </div>
-  
-    <div class="side">
-    <div class="side-heading">
-        <a data-toggle="collapse" data-parent="#help-nav" href="#help-nav-11" class="collapsed">
-        Setup Tutorials        
-      	</a>
-      </div>
-         <div id="help-nav-11" class="panel-collapse collapse">
-      <div class="side-body">
-        <ul>
-          <li><a href="/tutorial-setup-t1s">GameSir T1s</a></li>
-		<li><a href="/tutorial-setup-g4s">GameSir G4s</a></li>
-		<li><a href="/tutorial-setup-g3s">GameSir G3s</a></li>
-        </ul>
-      </div>
-    </div>
-       </div>
-  
-              <div class="side">
-    <div class="side-heading">
-        <a href="/garansi-gamesir" data-parent="#help-nav">
-          Garansi          
-        </a>
-      </div>
-       </div>
-  
-  
-              </div>
-          </div>
-          <div class="col-sm-8">
-			  <h3>Garansi GameSir</h3>
-			  <p style="color:#8b8b8b;">Setiap barang yang dibeli melalui kami di merchant kami, maupun distributor kami anda mendapat garansi 1 Bulan, dimulai dari tanggal pembelian. Anda bisa menukarkannya melalui distributor kami, atau bisa juga datang langsung ke Toko Kami di Mal Ciputra Lantai 2 Blok U03, Letjen S. Parman, Tj. Duren Utara, Grogol petamburan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta, Jakarta, Indonesia 11470.</p>
-          </div>
-          
+<div class="col-sm-12">
+	<div class="list-group">
+	<div class="list-group-item-text" style="color:#8b8b8b;">
+<p>Untuk info lebih lanjut silahkan hubungi kami di.</p>
+<br />
+<p>Silahkan email ke : adrysunarto@gamesir.id</p>
+<p>Contact Person : +62 817 190 021</p>
+</div>
+</div>
+<p><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd21YVVs5wfSOvKSE_BlAYZeRzBHA3pZY3cybTsgP7lgZFiBA/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></p>
+                          </div>
+                          </div>
+            
+
+            <!-- Paggination -->
+            <ul class="pagination pull-left">
+                          </ul>
+            <div class="clearfix"></div>
+          </div>          
         </div> <!-- / .row -->
       </div> <!-- / .container -->
       
@@ -195,13 +163,5 @@
     <script src="/assets/js/lightbox-2.6.min.js"></script>
     <script src="/assets/js/custom.js"></script>
     <script src="/assets/js/index.js"></script>
-    <script>
-	var hsfq = window.location.hash;
-    if (hsfq) {
-		$('.faq a[data-toggle="collapse"]').removeClass('collapsed');
-		$('#faq0').removeClass('in');
-		$('.faq a[href="'+hsfq+'"]').click();
-	}
-    </script>
 </body>
 </html>
