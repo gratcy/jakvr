@@ -77,7 +77,7 @@
 <p>Silahkan email ke : marketing@gamesir.id</p>
 </div>
 </div>
-<p><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd21YVVs5wfSOvKSE_BlAYZeRzBHA3pZY3cybTsgP7lgZFiBA/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></p>
+<p><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd21YVVs5wfSOvKSE_BlAYZeRzBHA3pZY3cybTsgP7lgZFiBA/viewform?embedded=true" width="100%" height="2000" scrolling="no" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></p>
                           </div>
                           </div>
             
